@@ -1,0 +1,646 @@
+/*This is a Git Practice*/
+
+/******GLOBAL Styles************************************************************************************************/
+
+body	{
+	margin: 0px;
+	font-family: Arial, Helmet, Freesans, sans-serif;
+	font-size: 62.5%;
+	min-width: 994px;
+	color: #505050;
+}
+
+.full-width	{
+	width: 100%;
+}
+
+
+#top-logo, #header-layer2, #spacer, #top-nav, #search	{
+	position: relative;
+	left: 8px;
+}
+
+.col12	{
+	width: 976px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#search-box, button, #uk, #rss, #menu2 ul, #wrapper, #now, #first-story, #second-story, #third-story, #other-stories, #other-stories-list, .left-col, .right-col, #also-in-the-news, #also-in-the-news h2	{
+	position: relative;
+}
+
+/************************************Header Styles************************************************************************************************/
+
+header	{
+	height: 128px;
+	background-color: #7A0000;
+	background-image: url("../images/red-masthead.png");
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+}
+
+
+#header-layer1	{
+	height: 39px;
+	background-color: rgba(42,0,0,0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);	
+}
+
+#top-logo	{
+	width: 92px;
+	height: 31px;
+	padding-top: 8px;
+	float: left;
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	opacity: 1;		
+}
+
+#top-logo a 	{
+	display: block;
+	height: 24px;
+	background: transparent url("../images/bbclogosprite.png") 0px -180px scroll repeat;
+	width: 84px;
+}
+
+#spacer	{
+	height: 38px;
+	width: 155.5px;
+	float: left;
+}
+
+#top-nav	{
+	width: 502px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 130%;
+	
+}
+
+#top-nav ul 	{
+	margin: 0px 8px 0px 0px;
+	padding: 0px;
+	height: 39px;
+	line-height: 13px;
+}
+
+#top-nav li 	{
+	display: inline-block;
+	line-height: 24px;
+	height: 39px;
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	text-align: center;
+}
+
+#news, #sport	{
+	width: 62px;
+}
+
+#weather {
+	width: 80px;
+}
+
+#iplayer	{
+	width: 71px;
+}
+
+#tv	{
+	width: 45px;
+}
+
+#radio	{
+	width: 65px;
+}
+
+#more	{
+	width: 73px;
+		border-right: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+#top-nav li a		{
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 5px 16px 7px 15px;
+	margin-top: 2px;
+}
+
+
+
+#news  a:hover 	{
+	border-bottom: 4px solid #9B2313;
+	padding-bottom: 5px;
+}
+
+#sport a:hover	{
+	border-bottom: 4px solid #FFE711;
+	padding-bottom: 5px;
+}
+
+#weather  a:hover {
+	border-bottom: 4px solid #77FFCD;
+	padding-bottom: 5px;
+}
+
+#iplayer a:hover	{
+	border-bottom: 4px solid #ED3482;
+	padding-bottom: 5px;
+}
+
+#tv	 a:hover {
+	border-bottom: 4px solid #ffffff;
+	padding-bottom: 5px;
+}
+
+#radio a:hover	{
+	border-bottom: 4px solid #ffffff;
+	padding-bottom: 5px;
+}
+
+#more a:hover	{
+	border-bottom: 4px solid #ffffff;
+	padding-bottom: 5px;
+}
+
+#search	{
+	float: left;
+	width: 212px;
+	margin-top: 8px;
+}
+
+form	{
+	height: 23.4px;
+}
+
+#search-box	{
+	width: 188px;
+	height: 21.4px;
+	border: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #505050;
+	padding-left: 8px;
+	right: 3px;
+}
+
+
+button 	{
+	padding-left: 0px;
+	padding-right: 4px;
+	left: 184px;
+	top: -23px;
+	border: none;
+	height: 23px;
+	width: 23px;
+}
+
+#header-layer2	{
+	height: 88px;
+}
+
+#news-rss	{
+	height: 34px;
+	padding: 13px 0px 16px 0px;
+	
+}
+
+#news-rss h1	{
+	margin: 0px;
+}
+
+#news-rss a {
+	display: block;
+	float: left;
+}
+#uk	{
+	display: block;
+	float: left;
+	font-family: "Gill Sans MT", "Gil Sans", Arial, Helmet, Freesans, sans-serif;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 150%;
+	margin-left: 16px;
+	margin-bottom: -7px;
+	line-height: 40px;
+	top: 4px;
+}
+
+#rss 	{
+	top: 22px;
+	left: -32px;
+	position: relative;
+}
+
+#rss a	{
+	font-family: Arial, Helmet, Freesans, sans-serif;
+	color: #ffffff;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-decoration: none;
+	float: right;
+	width: 28px;
+}
+
+#rss a:hover	{
+		text-decoration: underline;
+}
+
+#feed	{
+	display: block;
+	background-image: url("../images/rss.png");
+	background-position: -797px -1px;
+	text-indent: -5000px;
+	margin: -15px -17px 5px 30px;
+}
+
+#menu2	{
+	height: 24px;
+}
+
+#menu2 ul	{
+	background-color: #3E0C0D;
+	margin: 0px auto;
+	padding: 0px;
+	font-family: Arial, Helmet, Freesans, sans-serif;
+	font-size: 1.3em;
+	height: 24px;
+	top: 1px;
+	position: relative;
+}
+
+#menu2 li 	{
+	display: inline;
+	float: left;
+	height: 24px;
+}
+
+#menu2 a 	{
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 0.9230769230769231em;
+	padding: 4px 6px;
+	height: 16px;
+	display: block;
+}
+
+#menu2 a:hover 	{
+	text-decoration: underline;
+}
+
+#menu2 	a:visited	{
+	background-color: #ffffff;
+	color: #505050;
+}
+
+#menu2 ul, #date, #wrapper, footer	{
+	right: 8px;
+}
+
+#select-link	{
+	background-color: #ededed;
+}
+
+#select-link  a	{
+	color: #505050;
+}
+/************************************************DATE STYLES*****************************************************************************/
+#date	{
+	font-size: 1.3em;
+	color: #505050;
+	margin-bottom: -1px;
+	padding-bottom: 1px;
+}
+
+#index-date	{
+	height: 16px;
+	padding: 12px 0px 4px 0px;
+}
+
+#main-date	{
+	font-weight: bold;
+}
+
+/************************MAIN CONTENTS Styles************************************************************************************************/
+
+#wrapper	{
+	left: 1px;
+	height: 2791px;
+	background-color: green;
+	font-size: 1.3em;
+}
+
+#now	{
+	float: left;
+	margin-right: 15px;	
+	margin-bottom: 16px;
+	width: 624px;
+	height: 2743px;
+	background-color: yellow;
+}
+
+#top-stories	{
+	height: 902px;
+	background-color: beige;
+}
+
+#first-story	{
+	height: 272px;
+	margin-bottom: 9px;
+}
+
+#first-story h2	{
+	font-size: 2.4615384615384617em;
+	margin: 0px;
+	padding-top: 4px;
+	padding-bottom: 8px;
+	letter-spacing: -1px;
+	line-height: 34px;
+}
+
+#first-story h2 a , #second-story h2 a, #third-story h2 a, #other-stories h2 a	{
+	text-decoration: none;
+	color: #1F4F82;
+}
+
+#first-story h2 a:hover, #second-story a:hover, #third-story a:hover, #other-stories a:hover	{
+	text-decoration: underline;
+}
+
+#slideshow {
+	width: 400px;
+	float: left;
+	margin-top: 2px;
+}
+
+#first-story p, #first-story ul, #second-story h2, #second-story p, #third-story h2, #third-story p	{
+	float: right;
+	clear: right;	
+}
+
+#first-story ul	{
+	top: -2px;
+	position: relative;
+}
+
+#first-story p, #second-story p, #third-story p, #other-stories p	{
+	color: #505050;
+	width: 224px;
+	font-size: 1em;
+	margin: 0px;
+}
+
+#first-story ul, #third-story ul{
+	font-size: 1em;
+	line-height: 1.2307692307692308em;
+	width: 224px;
+	padding: 0px;
+	list-style: none;
+	margin: 0px 0px -1px 0px;
+	
+}
+
+#first-story li	{
+	height: 16px;
+	padding-top: 4px;
+	text-indent: 21px;
+}
+
+#first-story .no-bullet	{
+	text-indent: 0px;
+}
+
+#first-story li a, #third-story li a, #other-stories li a, #also-in-the-news li a	{
+	text-decoration: none;
+	color: #1F4F82;
+}
+
+#first-story li a:hover, #third-story li a:hover, #also-in-the-news li a:hover	{
+	text-decoration: underline;
+}
+
+#first-story span, .facleck	{
+	position: relative;
+	text-indent: -5000px;
+	width: 16px;
+	height: 15px;
+	top: -18px;
+	display: block;
+	margin-right: 8px;
+	margin-bottom: 5px;
+	z-index: 10;
+	line-height: 0.1em;
+}
+
+.triangle-icon	{
+	background-color: transparent;
+	background: url("../images/rss.png") -1301px 0px scroll no-repeat;
+	background-size: auto auto;
+}
+
+
+.speaker	{
+	background: url("../images/rss.png") -1322px 5px scroll no-repeat;
+}
+
+#second-story, #third-story	{
+	height: 183px;
+	padding: 12px 0px 4px 0px;
+	border-top: 1px solid #DDDDDD;
+}
+
+#breaking-news-pic, #farage-cleck	{
+	float: left;
+}
+
+#second-story h2, #third-story h2	{
+	width: 304px;
+	font-size: 1em;
+	line-height: 1.2307692307692308em;
+	margin-bottom: 4px;
+	padding: 2px 0px 0px 0px ;
+}
+
+#second-story h2, #third-story h2	{
+	margin-top: -4px;
+	position: relative;
+}
+#second-story a, #third-story h2 a, .left-col h2 a	{
+	font-size: 1.2307692307692308em;
+	font-weight: bold;
+}
+
+.new 	{
+	text-transform: uppercase;
+	color: #990000;
+	font-size: 0.6875em;
+}
+
+#second-story p, #third-story p 	{
+	width: 304px;
+}
+
+#third-story ul 	{
+	width: 304px;
+	float: right;
+	margin-top: 2px;
+}
+
+#third-story .triangle {
+	text-indent: 21px;
+}
+
+#third-story li	{
+	padding-bottom: 2px;
+}
+
+#third-story li a 	{
+	font-size: 1em;
+}
+
+#third-story li a .new	{
+	font-weight: bold;
+	font-size: 0.8461538461538461em;
+}
+
+#other-stories	{
+	height: 206px;
+	margin-bottom: 15px;
+	border-top: 1px solid #DDDDDD;
+	font-size: 1em;
+	line-height: 1.2307692307692308em;
+}
+
+#other-stories ul, #also-in-the-news ul	{
+	margin: 4px 0px;
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 5px;
+	margin-bottom: 4px;
+	
+}
+
+.left-col	{
+	height: 69px;
+	width: 304px;
+	margin: -1px 0px 7px 0px;
+	padding: 6px 0px;
+	float: left;
+	clear: left;
+}
+
+.right-col	{
+	width: 304px;
+	float: left;
+	left: 320px;
+	top: -177px;
+	clear: left;
+	padding-top: 7px;
+}
+
+#other-stories h2	{
+	margin: 0px;
+	font-size: 1em;
+}
+
+#other-stories p		{
+	font-size: 1em;
+	width: 304px;
+	margin-top: 4px;
+}
+
+#dunce	{
+	border-top: 1px solid #DDDDDD;
+}
+
+.comment	{
+	width: 22px;
+	background: url("../images/rss.png") -854px 5px scroll no-repeat;
+	display: inline-block;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	color: #CE7328;
+	font-size: 0.8461538461538461em;
+	font-weight: bold;
+	text-indent: 28px;	
+}
+
+#also-in-the-news	{
+	height: 123px;
+	border-top: 1px solid #dddddd;
+	background-color: beige;
+	margin-bottom: 12px;
+}
+
+#also-in-the-news h2 	{
+	margin: 0px;
+	padding: 7px 0px 8px 0px;
+	font-size: 1.8461538461538463em;
+	letter-spacing: -0.041666666666666664em;
+	line-height: 1em;
+	border-bottom: 1px solid #dddddd;	
+}
+
+
+#adjust	{
+	display: inline-block;
+	position: relative;
+	left: -305px;
+}
+
+#also-in-the-news ul 	{
+	margin: 0px 0px 4px 0px;
+	padding: 7px 0px 0px 0px; 
+	line-height: 1.2307692307692308em;
+}
+
+#also-in-the-news img	{
+	display: block;
+	position: relative;
+	float: left;
+	margin-top: 3px;
+	margin-right: 14px;
+}
+
+#also-in-the-news li 	{
+	width: 303px;
+}
+
+#also-in-the-news li a {
+	height: 31px;
+}
+
+#also-in-the-news h3	{
+	font-size: 1em;
+	margin: 0px;
+	
+}
+
+#also-in-the-news .left-col	{
+	top: -111px;
+	left: -1px;
+}
+
+#also-in-the-news .right-col	{
+	top: -200px;
+}
+
+#bbc-weather-now	{
+	height: 50px;
+	line-height: 1.2307692307692308em;
+	background-color: silver;
+}
+
+
+#best	{
+	float: left;
+	margin-top: -16px;
+	width: 336px;
+	height: 1554px;
+	background-color: pink;
+}
+
+
