@@ -1,3 +1,1 @@
-This is the READMEFILE for my Git Exercise
-
-This is an additional line
+In addition, anyone can check out this source code and introduce improvements
